@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Teacher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- Vertical navbar -->
+    <div class="vertical-nav bg-dark" id="sidebar">
+        <p class="text-white font-weight-bold text-center px-3 py-3 mb-0">Admin Panel</p>
+
+        <ul class="nav menu-bar flex-column mb-0">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-white">
+                    <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                    Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+                    Teacher
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="addTeacher.html">Add New Teacher</a></li>
+                        <li><a href="teacherList.html">Show Teacher List</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+                    Class
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Add New Class</a></li>
+                        <li><a href="#">Show Class List</a></li>
+                        <li><a href="#">Take Student Attendance</a></li>
+                        <li><a href="#">Show Attendance List</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Subject
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Add New Subject</a></li>
+                        <li><a href="#">Show Subject List</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Exam
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Add New Exam</a></li>
+                        <li><a href="#">Show Exam List</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Marks
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Grading Details</a></li>
+                        <li><a href="#">Set Marks</a></li>
+                        <li><a href="#">Student Mark Sheet</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Student
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Add New Student</a></li>
+                        <li><a href="#">Show Student List</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Employee
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+                    Accounts
+                </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Add New Category</a></li>
+                        <li><a href="#">Add Expense</a></li>
+                        <li><a href="#">Add Income</a></li>
+                        <li><a href="#">Show Categories</a></li>
+                        <li><a href="#">Show Income List</a></li>
+                        <li><a href="#">Show Expense List</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- End vertical navbar -->
+
+
+    <!-- Page content holder -->
+    <div class="page-content" id="content">
+        <!-- Toggle button -->
+        <!-- <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i
+                class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button> -->
+
+        <!-- Main content -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="form">
+                            <h2 class="bg-warning text-center mb-5">Teacher List</h2>
+                            <label for="">Name</label>
+                            <input type="text" name="">
+                            <button type="button">Go</button>
+                            <table class="table">
+                                <tr>
+                                    <th>S/L</th>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Index Number</th>
+                                    <th>Designation</th>
+                                    <th>Phone</th>
+                                    <th>Present Address</th>
+                                    <th>Action</th>
+                                </tr>
+                                <tr>
+                                    <td>01</td>
+                                    <td><img src="" alt="image" srcset=""></td>
+                                    <td>Aziz</td>
+                                    <td>028485584</td>
+                                    <td>Head Teacher</td>
+                                    <td>0174474833</td>
+                                    <td>Pal Pur</td>
+                                    <td>
+                                        <a href="#">Edit</a> ||
+                                        <a href="#">Delete</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <!-- End Main content -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
